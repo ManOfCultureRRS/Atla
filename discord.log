@@ -1,0 +1,13 @@
+2021-09-18 12:24:23,985:INFO:discord.client: logging in using static token
+2021-09-18 12:24:24,412:INFO:discord.gateway: Shard ID 0 has sent the IDENTIFY payload.
+2021-09-18 12:24:25,351:INFO:discord.gateway: Shard ID 0 has connected to Gateway: ["gateway-prd-main-x2hg",{"micros":858866,"calls":["discord-sessions-blue-prd-2-121",{"micros":857962,"calls":["start_session",{"micros":92833,"calls":["api-prd-main-d11n",{"micros":89041,"calls":["get_user",{"micros":3857},"add_authorized_ip",{"micros":1441},"get_guilds",{"micros":64342},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":52,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: eb8cc46ef1318267144bcee54da31861).
+2021-09-18 12:29:49,823:INFO:discord.voice_client: Connecting to voice...
+2021-09-18 12:29:49,824:INFO:discord.voice_client: Starting voice handshake... (connection attempt 1)
+2021-09-18 12:29:50,329:INFO:discord.voice_client: Voice handshake complete. Endpoint found eu-central11.discord.media
+2021-09-18 12:29:51,232:INFO:discord.gateway: selected the voice protocol for use (xsalsa20_poly1305_lite)
+2021-09-18 12:29:51,378:INFO:discord.gateway: received secret key for voice connection
+2021-09-18 12:30:16,693:INFO:discord.voice_client: The voice handshake is being terminated for Channel ID 727428534204891170 (Guild ID 727428534204891166)
+2021-09-18 12:30:16,755:INFO:discord.player: Preparing to terminate ffmpeg process 180.
+2021-09-18 12:30:16,763:INFO:discord.voice_client: Disconnecting from voice normally, close code 1000.
+2021-09-18 12:30:16,763:INFO:discord.player: ffmpeg process 180 has not terminated. Waiting to terminate...
+2021-09-18 12:30:16,770:INFO:discord.player: ffmpeg process 180 should have terminated with a return code of -9.
